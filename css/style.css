@@ -452,7 +452,7 @@ header .icons #menu-hamburger {
 
 .merchandise .meal-container .box .content h3 {
   color: var(--black);
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .merchandise .meal-container .box .content p {
@@ -465,7 +465,7 @@ header .icons #menu-hamburger {
 .merchandise .meal-container .box .content .price {
   color: var(--red);
   margin-left: 1rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .location .location-section {
@@ -708,7 +708,7 @@ header .icons #menu-hamburger {
 }
 
 .order form .inputBox .input textarea {
-  height: 20rem;
+  height: 15rem;
   resize: none;
 }
 
@@ -803,6 +803,23 @@ header .icons #menu-hamburger {
 
 /* media queries  */
 
+@media (max-width: 1500px) {
+  section {
+    padding: 2rem 2%;
+  }
+
+  .location .location-map {
+    height: 650px;
+  }
+
+  .location .location-section .location-search-box {
+    height: 650px;
+  }
+
+  .order .content-border {
+    margin-top: initial;
+  }
+}
 @media (max-width: 991px) {
   html {
     font-size: 55%;
