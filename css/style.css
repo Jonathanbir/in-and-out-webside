@@ -804,6 +804,14 @@ header .icons #menu-hamburger {
 /* media queries  */
 
 @media (max-width: 1500px) {
+  header .icons i,
+  header .icons a {
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    font-size: 1.3rem;
+  }
+
   section {
     padding: 2rem 2%;
   }
@@ -820,6 +828,7 @@ header .icons #menu-hamburger {
     margin-top: initial;
   }
 }
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
