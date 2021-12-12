@@ -285,7 +285,7 @@ header .icons #menu-hamburger {
 }
 
 .meal .meal-container .box .fa-heart,
-.meal .meal-container .box .fa-eye {
+.meal .meal-container .box .fa-shopping-cart {
   position: absolute;
   top: 1.5rem;
   background: #eee;
@@ -298,16 +298,17 @@ header .icons #menu-hamburger {
 }
 
 .meal .meal-container .box .fa-heart:hover,
-.meal .meal-container .box .fa-eye:hover {
+.meal .meal-container .box .fa-shopping-cart:hover {
   background: var(--red);
   color: #fff;
+  cursor: pointer;
 }
 
 .meal .meal-container .box .fa-heart {
   right: -15rem;
 }
 
-.meal .meal-container .box .fa-eye {
+.meal .meal-container .box .fa-shopping-cart {
   left: -15rem;
 }
 
@@ -315,7 +316,7 @@ header .icons #menu-hamburger {
   right: 1.5rem;
 }
 
-.meal .meal-container .box:hover .fa-eye {
+.meal .meal-container .box:hover .fa-shopping-cart {
   left: 1.5rem;
 }
 
@@ -426,7 +427,7 @@ header .icons #menu-hamburger {
   line-height: 5rem;
   text-align: center;
   font-size: 2rem;
-  background: #fff;
+  background: #eee;
   border-radius: 50%;
   color: var(--black);
 }
@@ -1058,6 +1059,22 @@ header .icons #menu-hamburger {
   .home .home-slider .slide .image h2 span {
     background-size: 120px 41px;
     font-size: 18px;
+  }
+
+  .meal .meal-container .box .fa-heart {
+    right: 1.5rem;
+  }
+
+  .meal .meal-container .box .fa-shopping-cart {
+    left: 1.5rem;
+  }
+
+  .home > div > div:nth-child(2) {
+    display: none;
+  }
+
+  .content > div > div:nth-child(2) {
+    display: none;
   }
 
   .location .location-section {
