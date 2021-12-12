@@ -1,1 +1,718 @@
-123
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>In-And-Out Burger Webside</title>
+    <!-- swiper套件 -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts      -->
+
+    <header>
+      <a href="#" class="logo">
+        <img src="images/logo-inandout.svg" />
+      </a>
+
+      <nav class="navigation">
+        <a class="active" id="home" href="#home">home</a>
+        <a id="meal" href="#meal">menu</a>
+        <a id="history" href="#history">history</a>
+        <a id="merchandise" href="#merchandise">merchandise</a>
+        <a id="location" href="#location">location</a>
+        <a id="order" href="#order">contact us</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-hamburger"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-content">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-input"
+      />
+      <label for="search-input" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <h2>
+                <span><em>Combo #1</em></span
+                ><br />Double-Double<sup>®</sup>
+              </h2>
+              <img src="images/burger-1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <h2>
+                <span><em>Combo #2</em></span
+                ><br />CHEESEBURGER<sup>®</sup>
+              </h2>
+              <img src="images/burger-2.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <h2>
+                <span><em>Combo #3</em></span
+                ><br />HAMBURGER<sup>®</sup>
+              </h2>
+              <img src="images/burger-3.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- meal section starts  -->
+
+    <section class="meal" id="meal">
+      <h3 class="sub-heading">in-and-out</h3>
+      <h1 class="heading">menu</h1>
+
+      <div class="meal-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/burger-1.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/burger-2.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/burger-3.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/burger-4.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/burger-5.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/fries.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/cups.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/shakes.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- meal section ends -->
+
+    <!-- history section starts  -->
+
+    <section class="history" id="history">
+      <h3 class="sub-heading">in-and-out</h3>
+      <h1 class="heading">History</h1>
+
+      <div class="content">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/history-1948.png" />
+            </div>
+            \
+            <div class="swiper-slide">
+              <img src="./images/history-1954.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1961.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1963.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1970.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1971.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1972.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1973.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1974.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1975.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1979.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1984.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1988.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1989.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1990.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1991.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1992.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1992.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1994.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-1997.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-2000.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-2005.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-2008.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-2011.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-2013.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-2015.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-2015-2.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-2018.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/history-2020.png" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- history section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="merchandise" id="merchandise">
+      <h3 class="sub-heading">in-and-out</h3>
+      <h1 class="heading">merchandise</h1>
+
+      <div class="meal-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/merchandise-4.jpeg" alt="" />
+            <a href="#" class="fas fa-shopping-cart"></a>
+          </div>
+          <div class="content">
+            <h3>UGLY CHRISTMAS SWEATER</h3>
+            <!-- <p>
+              Bring the holiday cheer with our one of a kind ugly Christmas
+              sweater featuring our iconic Double-Double® and crossed palms
+              design
+            </p> -->
+            <span class="price">$69.95</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/merchandise-3.jpeg" alt="" />
+            <a href="#" class="fas fa-shopping-cart"></a>
+          </div>
+          <div class="content">
+            <h3>DRINK CUP SOCKS</h3>
+            <!-- <p>
+              Classic crew socks featuring In-N-Out Burger's iconic drink cup
+              design.
+            </p> -->
+            <span class="price">$13.95</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/merchandise-2.jpeg" alt="" />
+            <a href="#" class="fas fa-shopping-cart"></a>
+          </div>
+          <div class="content">
+            <h3>2022 IN-N-OUT GOLDEN HOUR BLACK</h3>
+            <!-- <p>Step out in a new classic and enjoy the In-N-Out golden hour.</p> -->
+            <span class="price">$14.95</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/merchandise-5.jpeg" alt="" />
+            <a href="#" class="fas fa-shopping-cart"></a>
+          </div>
+          <div class="content">
+            <h3>60TH ANNIVERSARY CANVAS</h3>
+            <!-- <p>
+              A classic California scene by Michael Bryan. Created to celebrate
+              In-N-Out's 60th Anniversary and 60 years of "Quality you can
+              taste®". This item is available in either a simple canvas gallery
+              wrap or elegant framed canvas.
+            </p> -->
+            <span class="price">$220.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/merchandise-6.jpeg" alt="" />
+            <a href="#" class="fas fa-shopping-cart"></a>
+          </div>
+          <div class="content">
+            <h3>RETRO DUFFEL BAG</h3>
+            <!-- <p>
+              A fusion of fashion and function, this retro, faux leather, duffel
+              bag provides ample room for all your travel essentials. The large
+              zippered pockets and removable shoulder strap add to its
+              convenience. The signature red and white design with crossed palms
+              makes this bag an undeniable classic.
+            </p> -->
+            <span class="price">$49.95</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/merchandise-7.jpeg" alt="" />
+            <a href="#" class="fas fa-shopping-cart"></a>
+          </div>
+          <div class="content">
+            <h3>LONGBOARD DECK</h3>
+            <!-- <p>
+              Made of 7-ply, 100% Canadian hard rock maple, our longboard with
+              kicktail is a great board to ride or display. Joseph Reyna
+              captures the essence of paradise with the sun-setting behind
+              crystal blue water, warm sand, life guards on tower 48, blooming
+              hibiscus flowers, crossed palm trees and In-N-Out Burger.
+            </p> -->
+            <span class="price">$90.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/merchandise-8.jpg" alt="" />
+            <a href="#" class="fas fa-shopping-cart"></a>
+          </div>
+          <div class="content">
+            <h3>VARSITY JACKET</h3>
+            <!-- <p>
+              Show your In-N-Out spirit in our Varsity Jacket. From the high
+              quality striped rib knit sleeve cuffs and front zipper closure, to
+              the fitted collar and snug hem, everything is made to protect you
+              from cool weather.
+            </p> -->
+            <span class="price">$69.95</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/merchandise-9.jpeg" alt="" />
+            <a href="#" class="fas fa-shopping-cart"></a>
+          </div>
+          <div class="content">
+            <h3>DRINK CUP SLIDES</h3>
+            <!-- <p>
+              From the beach to the pool to everyday wear, our slides featuring
+              our iconic drink cup design will deliver all-day comfort.
+            </p> -->
+            <span class="price">$34.95</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- menu section ends -->
+
+    <!-- location section starts  -->
+
+    <section class="location" id="location">
+      <h3 class="sub-heading">in-and-out</h3>
+      <h1 class="heading">location</h1>
+      <div class="location-section">
+        <div class="location-search-box">
+          <div class="search-form">
+            <button class="hamburger-menu">
+              <img style="max-width: 27px" src="./images/icon-mobile-nav.svg" />
+            </button>
+            <form>
+              <input
+                placeholder="search for location"
+                required=""
+                type="text"
+              />
+              <i class="fas fa-search" id="search-icon"></i>
+            </form>
+            <div class="search-close">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+          <div class="location-search-content">
+            <div class="location-search-item">
+              <div class="location-search-image location-search-image-01">
+                <span class="search-result-index">1</span>
+              </div>
+              <div class="location-search-information">
+                <h3><i class="fas fa-location-arrow"></i>4.64 miles</h3>
+                <h2>6000 Pacific Blvd.</h2>
+                <p>Huntington Park, CA 90255</p>
+                <p><i class="fas fa-phone"></i>1-800-786-1000</p>
+                <p>Drive-thru and Dine-in Seating Available</p>
+                <p><i class="fas fa-clock"></i>10:30 a.m. - 1:30 a.m.</p>
+              </div>
+            </div>
+            <div class="location-search-item">
+              <div class="location-search-image location-search-image-02">
+                <span class="search-result-index">2</span>
+              </div>
+              <div class="location-search-information">
+                <h3><i class="fas fa-location-arrow"></i>4.64 miles</h3>
+                <h2>6000 Pacific Blvd.</h2>
+                <p>Huntington Park, CA 90255</p>
+                <p><i class="fas fa-phone"></i>1-800-786-1000</p>
+                <p>Drive-thru and Dine-in Seating Available</p>
+                <p><i class="fas fa-clock"></i>10:30 a.m. - 1:30 a.m.</p>
+              </div>
+            </div>
+            <div class="location-search-item">
+              <div class="location-search-image location-search-image-03">
+                <span class="search-result-index">3</span>
+              </div>
+              <div class="location-search-information">
+                <h3><i class="fas fa-location-arrow"></i>4.64 miles</h3>
+                <h2>6000 Pacific Blvd.</h2>
+                <p>Huntington Park, CA 90255</p>
+                <p><i class="fas fa-phone"></i>1-800-786-1000</p>
+                <p>Drive-thru and Dine-in Seating Available</p>
+                <p><i class="fas fa-clock"></i>10:30 a.m. - 1:30 a.m.</p>
+              </div>
+            </div>
+            <div class="location-search-item">
+              <div class="location-search-image location-search-image-04">
+                <span class="search-result-index">4</span>
+              </div>
+              <div class="location-search-information">
+                <h3><i class="fas fa-location-arrow"></i>4.64 miles</h3>
+                <h2>6000 Pacific Blvd.</h2>
+                <p>Huntington Park, CA 90255</p>
+                <p><i class="fas fa-phone"></i>1-800-786-1000</p>
+                <p>Drive-thru and Dine-in Seating Available</p>
+                <p><i class="fas fa-clock"></i>10:30 a.m. - 1:30 a.m.</p>
+              </div>
+            </div>
+            <div class="location-search-item">
+              <div class="location-search-image location-search-image-05">
+                <span class="search-result-index">5</span>
+              </div>
+              <div class="location-search-information">
+                <h3><i class="fas fa-location-arrow"></i>4.64 miles</h3>
+                <h2>6000 Pacific Blvd.</h2>
+                <p>Huntington Park, CA 90255</p>
+                <p><i class="fas fa-phone"></i>1-800-786-1000</p>
+                <p>Drive-thru and Dine-in Seating Available</p>
+                <p><i class="fas fa-clock"></i>10:30 a.m. - 1:30 a.m.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="location-map"></div>
+      </div>
+    </section>
+
+    <!-- location section ends -->
+
+    <!-- order section starts  -->
+
+    <section class="order" id="order">
+      <h3 class="sub-heading">in-and-out</h3>
+      <h1 class="heading">contact us</h1>
+
+      <div class="content-border">
+        <form action="">
+          <h2>Email Us your General Inquiry</h2>
+          <p>
+            We would love to hear from you. Please feel free to email us here or
+            reach us with the other two methods we provided below.
+          </p>
+          <div class="inputBox">
+            <div class="input">
+              <span>first name*</span>
+              <input type="text" placeholder="enter your first name" />
+            </div>
+            <div class="input">
+              <span>last name*</span>
+              <input type="text" placeholder="enter your last name" />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>phone</span>
+              <input type="number" placeholder="enter your phone" />
+            </div>
+            <div class="input">
+              <span>e-mail</span>
+              <input type="test" placeholder="extra your e-mail" />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>company</span>
+              <input type="text" placeholder="extra your company" />
+            </div>
+            <div class="input">
+              <span>date and time</span>
+              <input type="datetime-local" />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>your address</span>
+              <textarea
+                name=""
+                placeholder="enter your address"
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <div class="input">
+              <span>your message</span>
+              <textarea
+                name=""
+                placeholder="enter your message"
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+          </div>
+          <input type="submit" value="Send to Customer Service" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- order section ends -->
+
+    <!-- footer section starts  -->
+
+    <footer class="footer">
+      <div class="meal-container">
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#">1-800-786-1000 </a>
+          <a href="#">in-and-out@gmail.com</a>
+          <a href="#"
+            >In-N-Out Burgers Corporate Office 4199 Campus Drive, 9th Floor
+            Irvine, CA 92612</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <div class="social-media">
+            <a
+              href="https://www.facebook.com/innout"
+              target="_blank"
+              title="Visit us on Facebook"
+              aria-label="Visit us on Facebook"
+              class="icon-facebook"
+            >
+              <i class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/innout"
+              target="_blank"
+              title="Visit us on Facebook"
+              aria-label="Visit us on Facebook"
+              class="icon-facebook"
+            >
+              <i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/innout"
+              target="_blank"
+              title="Visit us on Facebook"
+              aria-label="Visit us on Facebook"
+              class="icon-facebook"
+            >
+              <i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/innout"
+              target="_blank"
+              title="Visit us on Facebook"
+              aria-label="Visit us on Facebook"
+              class="icon-facebook"
+            >
+              <i class="fab fa-snapchat"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="credit">© 2021 In-N-Out Burgers</div>
+    </footer>
+
+    <!-- footer section ends -->
+
+    <!-- loader part  -->
+    <div class="loader-container">
+      <img src="images/loader.gif" alt="" />
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
